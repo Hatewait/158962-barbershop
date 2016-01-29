@@ -6,29 +6,30 @@
 </head>
 <body>
 	<div class="main-header">
-		<div class="align-center">
+		<div class="container">
 			<div class="header-logo">
-				<img  src="#" width="" height="" alt="barbershop">
+				<a class="logo" href="">
+					<img  src="#" width="" height="" alt="barbershop">
+				</a>
 			</div>
 			<div class="main-navigation">
 				<ul class="navigation-list"> <!--Нужен ли тут класс?-->
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
-					<li class="active"><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li class="list-item"><a href="#">Главная</a></li>
+					<li class="list-item"><a href="#">Информация</a></li>
+					<li class="list-item"><a href="#">Новости</a></li>
+					<li class="list-item"><a href="#">Прайс-лист</a></li>
+					<li class="list-item active">Магазин</li>
+					<li class="list-item"><a href="#">Контакты</a></li>
 				</ul>
 				<div class="user-block">
 					<a class="login click" href="#">Вход</a>
 				</div>
 			</div>
-		</div> <!--End align-center -->
-		
+		</div> <!--End container -->
 	</div><!--End main-header -->
 	<div class="main-content">
-		<div class="align-center">
-			<h1>BARBERSHOP BORODINSKI — МАГАЗИН</h1>
+		<div class="container">
+			<h1>Средства для ухода</h1>
 			<div class="bread-crumbs">
 				<ul class="bread-crumbs-list">
 					<li class="page"><a href="#">Главная</a></li>
@@ -40,7 +41,7 @@
 				<h3>Производители</h3>
 				<ul class="sort-list">
 					<li>
-						<input class="brand" id="sort1" name="sort" type="checkbox" value="a1" checked> <!--Нужно ли value у этого input?-->
+						<input class="brand" id="sort1" name="sort" type="checkbox" value="a1" checked> 
 						<label for="sort1">Bakster of California</label>
 					</li>
 					<li>
@@ -64,8 +65,8 @@
 						<label for="sort6">American Crew</label>
 					</li>
 				</ul>
-				<label>Группы Товаров</label>
-				<ul class="Item-group-list">
+				<h3>Группы Товаров</h3>
+				<ul class="sort-list">
 					<li>
 						<input class="item" id="item1" name="group" value="b1" type="radio" checked>
 						<label for="item1">Бритвенные принадлежности</label>
@@ -81,7 +82,7 @@
 				</ul>
 			</form>
 			<div class="btn">
-				<a class="btn-show" href="#">Показать</a>
+				<button class="btn-show" type="submit">Показать</button>
 			</div>
 			<div class="goods">
 				<div class="travel-kit">
@@ -99,7 +100,7 @@
 					<p>Увлажняющий кондиционер</p>
 					<div class="button">
 						<span class="price">750 руб.</span>
-						<<a href="#" class="btn-buy">Купить</a>
+						<a href="#" class="btn-buy">Купить</a>
 					</div>
 				</div>
 				<div class="travel-kit">
@@ -147,10 +148,10 @@
 					<li><a  class="page" href="#">4</a></li>
 				</ul>
 			</div>
-		</div> <!--end align-center -->
+		</div> <!--end container -->
 	</div> <!--End main-content -->
 	<footer class="main-footer">
-		<div class="align-center">
+		<div class="container">
 			<div class="footer-contacts">
 				<p>
 					Барбершоп Бородинский<br>
