@@ -12,3 +12,12 @@ body {
 	line-height: 30px;
 	color: #000000;
 }
+.main-heading-catalog {
+	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #000000;
+}
+
+/* они же вроде одинаковые загаловки? Я их измерила..все тоже самое.. Или нет?*/
