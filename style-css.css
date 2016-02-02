@@ -1,16 +1,22 @@
+html, body {
+	min-width: 1122px;
+  	min-height: 1750px;
+  	margin: 0;
+  	padding: 0;
+}
 body {
 	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif; /*где смотреть какие шрифты ставить на замену? Как это определить?*/
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 18px;
 	color: #000000;
+	background-color: #f5f2ef;
 }
-.main-heading {
-	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 30px;
-	color: #000000;
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 .main-heading {
 	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
@@ -31,5 +37,78 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 18px;
-	color: #000000;
+	color: #000000;	
+}
+.main-header {
+	background-color: #000000;
+	margin-bottom: 60px;
+}
+.container {
+	background-color: grey;
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.main-navigation {
+	width: 780px;
+	float: left;
+}
+.user-block {
+	width: 140px;
+	float: right;
+}
+.page {
+	display: inline;
+	padding: 10px;
+}
+
+.sort{
+	float: left;
+	margin-right: 50px;
+}
+.sub-header {
+	padding-left: 0px;
+	padding-right: 260px;
+	width: 640px;
+}
+.travel-kit-item {
+	display: inline-block;
+	vertical-align: middle;
+}
+.travel-kit-content {
+	background-color: yellow;
+	float: right;
+	min-height: 540px;
+	width: 280px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0;
+}
+.image1 {
+	float: left;
+	margin-bottom: 15px;
+	width: 145px;
+}
+
+.small-kit-image {
+	display: inline-block;
+}
+
+.main-footer {
+	clear: both;
+	background-color: #212121;
+	min-height: 180px;
+	padding-top: 50px;
+}
+.footer-contacts {
+	float: left;
+	width: 330px;
+}
+.footer-social {
+	float: left;
+	width: 330px;
+}
+.footer-copyright {
+	float: right;
+	width: 220px;
 }
