@@ -8,9 +8,11 @@
 <body>
 	<div class="main-header">
 		<div class="container clearfix">
-			<a class="logo" href="">
-				<img src="img/logo/Logo.png" width="111" height="24" alt="Барбершоп">
-			</a>
+			<div class="logo-block">
+				<a class="logo" href="">
+					<img src="img/logo/Logo.png" width="111" height="24" alt="Барбершоп">
+				</a>
+			</div>
 			<div class="main-navigation">
 				<ul class="navigation-list">
 					<li class="list-item"><a href="#">Главная</a></li>
@@ -20,27 +22,28 @@
 					<li class="list-item active">Магазин</li>
 					<li class="list-item"><a href="#">Контакты</a></li>
 				</ul>
-				<div class="user-block">
-					<a class="login click" href="#">Вход</a>
-				</div>
 			</div>
-	</div> <!--container-->	
+			<div class="user-block">
+				<a class="login click" href="#">Вход</a>
+			</div>
+		</div> <!--container-->	
 	</div><!--End main-header -->
-	<div class="sub-header container">
-		<h1 class="main-heading heading1">
-			Набор для путешествий "Baxter of California"
-		</h1>
-		<div class="bread-crumbs">
-			<ul class="bread-crumbs-list">
-				<li class="page"><a href="#">Главная</a></li>
-				<li class="page"><a href="#">Магазин</a></li>
-				<li class="page"><a href="#">Средства для ухода</a></li>
-				<li class="page active">Baxter of California</li>
-			</ul>
-		</div> <!--end bread-crumbs-->
-	</div>
 	<div class="main-content">
 		<div class="container clearfix">
+			<div class="sub-header">
+				<h1 class="main-heading heading1">
+					Набор для путешествий "Baxter of California"
+				</h1>
+				<div class="bread-crumbs">
+					<ul class="bread-crumbs-list">
+						<li class="page"><a href="#">Главная</a></li>
+						<li class="page"><a href="#">Магазин</a></li>
+						<li class="page"><a href="#">Средства для ухода</a></li>
+						<li class="page active">Baxter of California</li>
+					</ul>
+				</div> <!--end bread-crumbs-->
+			</div>
+			<div class="travel-kit-container clearfix">
 			<div class="travel-kit-block">
 				<div class="travel-kit-image">
 					<img src="img/content/travel-kit.jpg" width="486" height="524" alt="Baxter of California">
@@ -48,10 +51,10 @@
 				<div class="small-kit-image image1">
 					<img src="img/content/travel-kit-item1.jpg" width="166" height="175" alt="Baxter of California">
 				</div>
-				<div class="small-kit-image">
+				<div class="small-kit-image image2">
 					<img src="img/content/travel-kit-item2.jpg" width="166" height="175" alt="Baxter of California">
 				</div>
-				<div class="small-kit-image">
+				<div class="small-kit-image image3">
 					<img src="img/content/travel-kit-item3.jpg" width="166" height="175" alt="Baxter of California">
 				</div>
 			</div><!--end travel-kit-block-->	
@@ -83,10 +86,11 @@
 					</ul>
 				</div><!--end travel-kit-->
 			</div> <!--end travel-kit-content -->	
+			</div>
 		</div> <!--and container-->
 	</div> <!--end main-content -->
 	<footer class="main-footer">
-		<div class="container">
+		<div class="container clearfix">
 			<div class="footer-contacts">
 				<p>
 					Барбершоп Бородинский<br>

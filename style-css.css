@@ -1,5 +1,5 @@
 html, body {
-	min-width: 1122px;
+	min-width: 1200px;
   	min-height: 1750px;
   	margin: 0;
   	padding: 0;
@@ -42,9 +42,9 @@ body {
 .main-header {
 	background-color: #000000;
 	margin-bottom: 60px;
+	min-height: 45px;
 }
 .container {
-	background-color: grey;
 	width: 960px;
 	padding: 0 10px;
 	margin: 0 auto;
@@ -53,16 +53,30 @@ body {
 	width: 780px;
 	float: left;
 }
+.navigation-list {
+	margin-top: 25px;
+}
+.list-item {
+	display: inline;
+	padding: 10px;
+}
+.logo-block {
+	width: 150px;
+	float: left;
+	margin-top: 25px;
+}
 .user-block {
 	width: 140px;
 	float: right;
+	background-color: yellow;
 }
 .page {
 	display: inline;
 	padding: 10px;
 }
 
-.sort{
+.toolbar{
+	width: 240px;
 	float: left;
 	margin-right: 50px;
 }
@@ -70,13 +84,33 @@ body {
 	padding-left: 0px;
 	padding-right: 260px;
 	width: 640px;
+	margin-top: 50px
+}
+.bread-crumbs {
+	width: 490px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.goods {
+	font-size: 0px;
 }
 .travel-kit-item {
+	font-size: 14px;
+	width: 220px;
+	min-height: 290px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: bottom;
+	margin-left: 0px;
+}
+.paginator-page {
+	margin-left: 235px;
+}
+
+.travel-kit-block {
+	width: 498px;
+	float: left;
 }
 .travel-kit-content {
-	background-color: yellow;
 	float: right;
 	min-height: 540px;
 	width: 280px;
@@ -84,14 +118,25 @@ body {
 	padding-right: 5px;
 	padding-top: 0;
 }
-.image1 {
+.travel-kit-image {
+	width: 498px;
 	float: left;
-	margin-bottom: 15px;
-	width: 145px;
 }
 
-.small-kit-image {
-	display: inline-block;
+.image1 {
+	width: 166px;
+	float: left;
+}
+
+.image2 {
+	width: 166px;
+	float: left;
+	margin-right: 0px
+}
+.image3 {
+	width: 166px;
+	float: right;
+	margin-left: 0px;
 }
 
 .main-footer {
