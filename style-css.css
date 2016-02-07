@@ -1,21 +1,24 @@
 html, body {
-  	margin: 0;
-  	padding: 0;
-  	min-width: 960px;
+ 	min-width: 960px;
+ 	margin: 0;
+ 	padding: 0;
 }
 body {
-	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif; /*где смотреть какие шрифты ставить на замену? Как это определить?*/
+	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif; 
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 18px;
+	text-transform: uppercase;
 	color: #000000;
 	background-color: #f5f2ef;
 }
+a {
+	text-decoration: none;
+}
 .clearfix::after {
-  content: "";
-
-  display: table;
-  clear: both;
+    content:'';
+    display:table;
+    clear:both;
 }
 .main-heading {
 	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
@@ -23,7 +26,6 @@ body {
 	font-weight: bold;
 	line-height: 30px;
 	color: #000000;
-	margin-left: 10px;
 }
 .sub-heading {
 	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
@@ -31,7 +33,6 @@ body {
 	font-weight: bold;
 	line-height: 24px;
 	color: #000000;
-	margin-left: 10px;
 }
 .heading-item {
 	font-family: 'PT sans narrow', Arial, Helvetica, sans-serif;
@@ -46,27 +47,33 @@ body {
 	min-height: 70px;
 }
 .container {
-	width: 960px;
-	margin: 0 auto;
+	width: 940px;
+  	padding: 0 10px;
+  	margin: 0 auto;
 }
 .main-navigation {
 	width: 540px;
 	float: left;
+	padding-left: 0px;
 }
-.navigation-list {
+ul.navigation-list {
 	margin-top: 25px;
+	padding-left: 0px;
 }
 .list-item {
 	display: inline;
-	padding: 10px;
+	padding-left: 0px;
+	padding-right: 40px;
 }
 .logo-block {
 	width: 150px;
 	float: left;
 	margin-top: 25px;
+	padding-left: 20px;
+	padding-right: 0px;
 }
 .user-block {
-	width: 140px;
+	width: 100px;
 	float: right;
 	margin-top: 25px;
 }
@@ -78,12 +85,12 @@ body {
 .toolbar{
 	width: 220px;
 	float: left;
-	margin-right: 10px;
-	margin-left: 10px;
+	padding: 0px;
+	margin-top: 0px;
 }
 .toolbar-list, .sort-list {
 	margin-left: 0px;
-	padding-left: 10px;
+	padding-left: 0px;
 	list-style: none;
 }
 .sub-header {
@@ -94,8 +101,8 @@ body {
 }
 .bread-crumbs {
 	width: 100%;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0px;
+	
 	margin-bottom: 60px;
 	
 }
@@ -106,6 +113,10 @@ body {
 }
 .goods {
 	font-size: 0px;
+	float: right;
+	width: 710px;
+	padding: 0;
+	margin-right: 0px;
 }
 .travel-kit-item {
 	font-size: 14px;
@@ -116,13 +127,15 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-.paginator-block {
-	width: 200px;
+.travel-kit-item:nth-child(3n) {
+	margin-right: 0px;
+}
+div.paginator-block {
+	width: 240px;
 	min-height: 43px;
 	margin-top: 43px;
 	margin-bottom: 50px;
 	font-size: 0px;
-	
 }
 ul.paginator-list {
 	list-style: none;
@@ -136,9 +149,11 @@ ul.paginator-list {
 	margin-right: 7px;
 	text-align: center;
 	font-size: 14px;
+	color: #f4f4f4;
+	background-color: #000000;
 }
 .travel-kit-block {
-	width: 480px;
+	width: 460px;
 	float: left;
 	margin-left: 0px;
 	margin-right: 10px;
@@ -154,51 +169,31 @@ ul.paginator-list {
 	width: 460px;
 	height: 498px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 0px;
 	margin-bottom: 20px;
 }
-
-.image1 {
+.small-kit-image {
 	width: 140px;
 	height: 149px;
 	float: left;
 	margin-right: 20px;
-	margin-left: 10px;
-}
-
-.image2 {
-	width: 140px;
-	height: 149px;
-	float: left;
-	margin-right: 20px;
-	margin-left: 0px;
-	
 }
 .image3 {
-	width: 140px;
-	height: 149px;
-	float: right;
-	margin-left: 0px;
-	margin-right: 10px;
-	
+	margin-right: 0px;
 }
 
 .in-stock {
 	float: left;
-	width: 90px; 
-	margin-left: 10px;
+	max-width: 190px; 
 }
 .in-stock-article {
 	float: right;
-	width: 110px;
+	max-width: 190px;
 	margin-right: 10px;
-}
-.travel-kit-description, .button-item {
-	margin-left: 10px;
 }
 .travel-kit-list {
 	margin-left: 0px;
-	padding-left: 10px;
+	padding-left: 0px;
 	list-style-type: none;
 }
 .main-footer {
